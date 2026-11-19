@@ -1,2 +1,21 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+/* --- Modo oscuro --- */
+.ion-palette-dark {
+  --app-superficie: #1c1a18;
+  --app-borde: #2e2b28;
+  --app-sombra: none;
+
+  --ion-color-primary: #e87a5e;
+  --ion-color-primary-rgb: 232, 122, 94;
+  --ion-color-primary-contrast: #121110;
+  --ion-color-primary-contrast-rgb: 18, 17, 16;
+  --ion-color-primary-shade: #cc6b53;
+  --ion-color-primary-tint: #ea876e;
+}
+
+.ion-palette-dark.ios body {
+  --ion-background-color: #121110;
+  --ion-background-color-rgb: 18, 17, 16;
+  --ion-text-color: #f4f1ec;
+  --ion-text-color-rgb: 244, 241, 236;
+  --ion-item-background: #1c1a18;
+}
